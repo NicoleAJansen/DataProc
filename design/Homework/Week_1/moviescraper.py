@@ -28,33 +28,33 @@ def extract_movies(dom):
     - Runtime (only a number!)
     """
 
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED MOVIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
-
+    # Find all movie titles and add to movies list
     titles = dom.find_all(href=re.compile("ref_=adv_li_tt"))
     movies = list()
     length = len(titles)
     for title in titles:
         movies.append(title.contents)
 
-    rate = dom.find_all(attrs={"name": "ir"})
-    for i in range(len(rate)):
-        movies[i].append(float(rate[i].strong.string))
-
-    years = dom.find_all(attrs={"class": "lister-item-year text-muted unbold"})
-    for i in range(len(years)):
-        yearstr = years[i].string
-        year = ""
-        for letter in yearstr:
-            if letter.isnumeric():
-                year += letter
-        movies[i].append(int(year))
-
+    # Get data of each movie
     moviesdata = dom.find_all(attrs={"class" : "lister-item mode-advanced"})
     for i in range(len(moviesdata)):
+
+        # Find ratings of movies and add to movies list
+        rate = moviesdata[i].find_all(attrs={"name" : "ir"})
+        movies[i].append(float(rate[0]["data-value"]))
+
+        # Find years of release and add to movies list
+        year = moviesdata[i].find_all(attrs={"class" : "lister-item-year text-muted unbold"})
+        yearstr = year[0].string
+
+        # Make sure only numerical value will be added
+        year = get_numerical(yearstr, int)
+        movies[i].append(year)
+
+        # Add actors and actresses to movies list
         actors = moviesdata[i].find_all(href=re.compile("ref_=adv_li_st"))
+
+        # Create single string with cast
         cast = ""
         for actor in actors:
             cast += actor.string + ", "
@@ -62,16 +62,26 @@ def extract_movies(dom):
         cast = cast[0:(end-2)]
         movies[i].append(cast)
 
-    runtimedata = dom.find_all(attrs={"class" : "runtime"})
-    for i in range(len(runtimedata)):
-        runtimestr = runtimedata[i].string
-        runtime = ""
-        for letter in runtimestr:
-            if letter.isnumeric():
-                runtime += letter
-        movies[i].append(float(runtime))
+        # Add runtime to movies list
+        runtimedata = moviesdata[i].find(attrs={"class" : "runtime"})
+
+        # Make sure that only numerical value will be added
+        runtimestr = runtimedata.string
+        runtime = get_numerical(runtimestr, float)
 
     return movies
+
+def get_numerical(str, typ):
+    """
+    Get only the numerical data form a string.
+    'typ' should be 'int' or 'float', depending on type of output is desired
+    """
+    number = ""
+    for letter in str:
+        if letter.isnumeric():
+            number += letter
+
+    return typ(number)
 
 def save_csv(outfile, movies):
     """
@@ -79,9 +89,10 @@ def save_csv(outfile, movies):
     """
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Year', 'Actors', 'Runtime'])
+
+    # Add info of the movies to the csv-file
     for info in movies:
         writer.writerow(info)
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE MOVIES TO DISK
 
 
 def simple_get(url):
