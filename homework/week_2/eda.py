@@ -10,6 +10,8 @@ import csv
 import pandas
 import numpy as np
 import matplotlib.pyplot as plt
+import json
+import os
 
 
 # Global variable for input file
@@ -87,7 +89,7 @@ def central_tendency(data_frame):
     ax.set_xlabel("GDP ($ per capita)")
     plt.show()
 
-
+    return data_frame
 
 
 def five_num_sum(data_frame):
@@ -113,9 +115,19 @@ def five_num_sum(data_frame):
     plt.show()
 
 
+def save_json(data_frame):
+    """
+    Saves data into an JSON file
+    """
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    dir_path += "/data.json"
+    data_frame.to_json(path_or_buf=dir_path, orient="records")
+
+
 
 if __name__ == "__main__":
     data_frame = load_data()
     print(data_frame)
-    central_tendency(data_frame)
+    data_frame = central_tendency(data_frame)
     five_num_sum(data_frame)
+    save_json(data_frame)
