@@ -72,8 +72,9 @@ def save_json(filename):
     Saves data as a jsonfile.
     """
     filename_json = filename[:-3] + "json"
-    with open(filename_json, "w") as write_file:
+    with open(filename_json, "w", newline='') as write_file:
         json.dump(data_dict, write_file)
+
 
 
 if __name__ == "__main__":
