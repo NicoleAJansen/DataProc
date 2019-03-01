@@ -1,3 +1,3 @@
 # DataProc
 
-[Homework/Week_3](homework/week_3/index.html)
+[Homework/Week_3](homework/Week_3/index.html)
