@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3-tip.js"></script>
+  </head>
+  <body>
+    <!-- Plot bar graph -->
+    <script type="text/javascript">
+      // Add title to tab
+      d3.select("head")
+        .append("title")
+        .text("Percentage renewable energy");
+
+      // Add class styles
+      d3.select("head")
+        .append("style")
+        .text(".author { font-family: Times; font-size: 12px; color: gray; }" +
+              ".descript { font-family: Times; font-size: 16px; }" +
+              ".bar:hover { fill: green; }" +
+              ".d3-tip { line-height: 1; font-weight: bold; padding: 12px;" +
+                        "background: rgba(0, 0, 0, 0.8); color: #fff;" +
+                        "border-radius: 2px; }");
+
+      // Add title of the bar graph to page
+      d3.select("body")
+        .append("h3")
+        .text("Changes in percentage of renewable energy between 1976 and 2016");
+
+      // Add author information, description of bar graph and source of data
+      d3.select("body")
+        .append("p")
+        .attr("class", "author")
+        .html("Name: Nicole Jansen<br>Student number: 10963871");
+      d3.select("body")
+        .append("p")
+        .attr("class", "descript")
+        .html("This bar graph shows the change in percentage of renewable energy" +
+              " of the total primary energy supply from the year 2016 compared" +
+              " to the year 1976 for each country. <br>The exact values of the" +
+              " percentages of renewable energy of the total primary energy supply" +
+              " of both 1976 and 2016 and the difference between them can be seen by" +
+              " hovering over the bars. <br><a href=https://data.oecd.org/energy/renewable-energy.htm>Data source</a><br>");
+
+      // Initialize SVG
+      var width = 900;
+      var height = 200;
+      var svg = d3.select("body")
+                  .append("svg")
+                  .attr("width", width)
+                  .attr("height", height);
+
+
+      // Make bar graph
+      d3.json("data.json").then(function(data) {
+        // Initialize tiptool; credits: http://bl.ocks.org/Caged/6476579
+        var tip = d3.tip()
+                    .attr("class", "d3-tip")
+                    .offset([-10, 0])
+                    .html(function(d, i) {
+                      return "<span>1976: " + data[i].Value + "%<br>2016: " + data[i+1].Value + "%<br>Change: " + d.toFixed(2) + "</span>";
+                    });
+
+        svg.call(tip);
+
+        // Create an array with change in percentage between 2016 and 1976
+        // and an array with the contries (indexes corresponding)
+        var change = [];
+        var country = [];
+        for (var i = 0; i < data.length; i += 2) {
+          country.push(data[i].LOCATION)
+          change.push((data[i+1].Value - data[i].Value))
+        }
+
+        // Create array with absolute values (absolute change)
+        var changeAbs = [];
+        for (var i = 0; i < change.length; i++) {
+          changeAbs.push(Math.abs(change[i]));
+        }
+
+        // Initialize bars
+        var bars = svg.selectAll("rect")
+                      .data(change)
+                      .enter()
+                      .append("rect")
+                      .attr("class", "bar");
+
+        // Values for graphing bars
+        var offsetLeft = 50;
+        var offsetTop = 20;
+        var widthBar = (width - offsetLeft) / change.length;
+        var space = 0.8;
+
+        // Determine scales of axes
+        var scaleY = d3.scaleLinear()
+                       .domain([Math.min(...changeAbs), Math.max(...changeAbs)])
+                       .range([0, (height - offsetTop)/2]);
+        var scaleYpos = d3.scaleLinear()
+                          .domain([Math.min(...changeAbs), Math.max(...changeAbs)])
+                          .range([(height - offsetTop)/2, 0]);
+        var scaleYneg = d3.scaleLinear()
+                       .domain([-(Math.min(...changeAbs)), -(Math.max(...changeAbs))])
+                       .range([0, (height-offsetTop)/2]);
+
+        var scaleX = d3.scaleBand()
+                       .domain(country)
+                       .range([0, width - offsetLeft]);
+
+        // Create bars
+        bars.attr("x", function(d, i) {
+              return ((i * widthBar) + offsetLeft);
+            })
+            .attr("y", function(d) {
+              if (d > 0) {
+                return (((height - offsetTop) / 2) - scaleY(d));
+              }
+              else {
+              return ((height - offsetTop) / 2);
+              }
+            })
+            .attr("width", (widthBar - space))
+            .attr("height", function(d) {
+              return scaleY(Math.abs(d));
+             })
+            .attr("fill", function(d) {
+              if (d > 0) {
+                return "teal";
+              }
+              else {
+                return "brown";
+              }
+            })
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide);
+
+        // Create x-axis
+        var xAxis = d3.axisBottom(scaleX);
+        svg.append("g")
+           .attr("class", "axis")
+           .attr("transform", "translate(" + offsetLeft + "," + ((height - offsetTop) / 2) + ")")
+           .call(xAxis);
+        svg.append("text")
+           .text("Country")
+           .attr("transform", "translate(" + (width - 60) + "," + ((height - offsetTop)/2 + 40) + ")");
+
+        // Create y-axis
+        var yAxisPos = d3.axisLeft(scaleYpos)
+                         .ticks(10);
+        svg.append("g")
+           .attr("class", "axis")
+           .attr("transform", "translate(" + offsetLeft + ", 0)")
+           .call(yAxisPos);
+
+        var yAxisNeg = d3.axisLeft(scaleYneg)
+                         .ticks(10)
+        svg.append("g")
+           .attr("class", "axis")
+           .attr("transform", "translate(" + offsetLeft + "," + ((height - offsetTop) / 2) + ")")
+           .call(yAxisNeg);
+        svg.append("text")
+           .text("Change in %")
+           .attr("transform", "translate(" + (offsetLeft + 3) + "," + (offsetTop / 1.5) + ")");
+      });
+
+
+    </script>
+  </body>
+</html>
