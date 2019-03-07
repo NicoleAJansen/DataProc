@@ -4,7 +4,7 @@
 
 
 ## Assignment - JavaScript
-[Line graph](homework/Week_3/index.html)
+[Line graph](https://nicoleajansen.github.io/DataProc/homework/Week_3/index.html)
 
 Original dataset: [dataset](https://zenodo.org/record/44529#.XHiUxfZFzIU)
 
@@ -14,7 +14,7 @@ Code used to make the dataset smaller: [code](homework/Week_3/tinyfyCSV.py)
 
 
 ## Assignment - D3 Bar graph
-[Bar graph](homework/Week_4/index.html)
+[Bar graph](https://nicoleajansen.github.io/DataProc/homework/Week_4/index.html)
 
 Original dataset: [dataset](https://data.oecd.org/energy/renewable-energy.htm)
 
