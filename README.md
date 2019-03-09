@@ -1,6 +1,6 @@
 # DataProc
 ##### Nicole Jansen
-[link to site](https://nicoleajansen.github.io/DataProc/index.html)
+[link to site](https://nicoleajansen.github.io/DataProc/)
 
 
 ## Assignment - JavaScript
