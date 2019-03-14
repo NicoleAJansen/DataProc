@@ -17,3 +17,9 @@ Code used to make the dataset smaller: [code](homework/Week_3/tinyfyCSV.py)
 [Bar graph](https://nicoleajansen.github.io/DataProc/homework/Week_4/index.html)
 
 Original dataset: [dataset](https://data.oecd.org/energy/renewable-energy.htm)
+
+
+## Assignment - D3 Scatterplot
+[Scatterplot](https://nicoleajansen.github.io/DataProc/homework/Week_5/scatter.html)
+
+Original dataset: [dataset]()
