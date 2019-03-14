@@ -1,0 +1,61 @@
+/* Nicole Jansen; Student number: 10963871 */
+
+.author {
+  font-family: Times;
+  font-size: 12.5px;
+  color: black;
+}
+
+.descript {
+  font-family: Times;
+  font-size: 16px;
+}
+
+.labels {
+  font-family: Times;
+  font-size: 11.5px;
+  color: black;
+}
+
+.titleGraph {
+  font-family: Times;
+  font-size: 15px;
+  color: black;
+}
+
+/* Colors; source: http://colorbrewer2.org/?type=qualitative&scheme=Paired&n=12
+source: http://colorbrewer2.org/?type=qualitative&scheme=Set3&n=12 */
+.q0-25 {fill:rgb(166,206,227)}
+.q1-25 {fill:rgb(31,120,180)}
+.q2-25 {fill:rgb(178,223,138)}
+.q3-25 {fill:rgb(51,160,44)}
+.q4-25 {fill:rgb(251,154,153)}
+.q5-25 {fill:rgb(227,26,28)}
+.q6-25 {fill:rgb(253,191,111)}
+.q7-25 {fill:rgb(255,127,0)}
+.q8-25 {fill:rgb(202,178,214)}
+.q9-25 {fill:rgb(106,61,154)}
+.q10-25 {fill:rgb(255,255,153)}
+.q11-25 {fill:rgb(177,89,40)}
+.q12-25 {fill:rgb(141,211,199)}
+.q13-25 {fill:rgb(255,255,179)}
+.q14-25 {fill:rgb(190,186,218)}
+.q15-25 {fill:rgb(251,128,114)}
+.q16-25 {fill:rgb(128,177,211)}
+.q17-25 {fill:rgb(253,180,98)}
+.q18-25 {fill:rgb(179,222,105)}
+.q19-25 {fill:rgb(252,205,229)}
+.q20-25 {fill:rgb(217,217,217)}
+.q21-25 {fill:rgb(188,128,189)}
+.q22-25 {fill:rgb(204,235,197)}
+.q23-25 {fill:rgb(255,237,111)}
+.q24-25 {fill:rgb(20,20,20)}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
