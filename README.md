@@ -22,4 +22,10 @@ Original dataset: [dataset](https://data.oecd.org/energy/renewable-energy.htm)
 ## Assignment - D3 Scatterplot
 [Scatterplot](https://nicoleajansen.github.io/DataProc/homework/Week_5/scatter.html)
 
-Original dataset: [dataset]()
+Original dataset: [dataset](www.oecd.org/)
+
+
+## Assignment - D3 Linked views
+[Linked views](https://nicoleajansen.github.io/DataProc/homework/Week_6/index.html)
+
+Original dataset: [dataset](https://opendata.cbs.nl/statline/portal.html?_la=nl&_catalog=CBS&tableId=7052_95&_theme=161)
