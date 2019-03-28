@@ -221,7 +221,11 @@ function chartLeft(data, processedData) {
                   .attr("width", scaleX.bandwidth())
                   .attr("height", 0)
                   .on('click', function(d, i) {
-                    let theseProcessedData = processData(data, gender="all", age="all", years=getYearKey(data, yearLabels[i]), ids="sub");
+                    var gender = d3.selectAll(".btn-group.genderbtn").node();
+                    gender = gender.getAttribute("value");
+                    var age = d3.selectAll(".btn-group.agebtn").node();
+                    age = age.getAttribute("value");
+                    let theseProcessedData = processData(data, gender, age, years=getYearKey(data, yearLabels[i]), ids="sub");
                     d3.selectAll(".btn-group.yearbtn").attr("value", years);
                     d3.selectAll(".dropdown-toggle.yearbtn").html(data[3][years] + "  ")
                       .append("span").attr("class", "caret");
