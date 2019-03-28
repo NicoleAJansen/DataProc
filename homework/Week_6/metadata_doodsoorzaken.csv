@@ -1,0 +1,991 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Overledenen; belangrijke doodsoorzaken (korte lijst), leeftijd, geslacht";"Overledenen; doodsoorzaak (korte lijst)";"7052_95";"Overleden inwoners van Nederland naar belangrijke onderliggende doods-
+oorzaken (Beldo-lijst), leeftijd (op het moment van overlijden), geslacht";"2018-12-20T02:00:00";"Bijstelling";"";"nl";"CBS";"Perjaar";"1950-2017";"
+Deze tabel bevat cijfers van overleden inwoners van Nederland naar belangrijke onderliggende doodsoorzaken (Beldo-lijst), leeftijd (op het moment van overlijden) en geslacht.
+
+CBS is in het statistiekjaar 2013 overgestapt op het gebruik van internationale software voor het automatisch coderen van de doodsoorzaken. Hiermee zijn de cijfers beter reproduceerbaar en internationaal vergelijkbaar. Wel zijn er eenmalig enkele forse verschuivingen te zien in de doodsoorzaken. 
+
+Gegevens beschikbaar vanaf: 1950
+
+Status van de cijfers:
+De cijfers tot en met 2017 zijn definitief. 
+
+Wijzigingen per 20 december 2018:
+De voorlopige cijfers over het jaar 2017 zijn definitief gemaakt.
+
+Wanneer komen er nieuwe cijfers?
+In het derde kwartaal van 2019 verschijnen er voorlopige cijfers over 2018.
+";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie
+
+1. TOELICHTING
+
+Deze tabel bevat cijfers van overleden inwoners van Nederland naar belangrijke onderliggende doodsoorzaken (Beldo-lijst), leeftijd (op het moment van overlijden) en geslacht.
+
+CBS is in het statistiekjaar 2013 overgestapt op het gebruik van internationale software voor het automatisch coderen van de doodsoorzaken. Hiermee zijn de cijfers beter reproduceerbaar en internationaal vergelijkbaar. Wel zijn er eenmalig enkele forse verschuivingen te zien in de doodsoorzaken. 
+
+Gegevens beschikbaar vanaf: 1950
+
+Status van de cijfers:
+De cijfers tot en met 2017 zijn definitief. 
+
+Wijzigingen per 20 december 2018:
+De voorlopige cijfers over het jaar 2017 zijn definitief gemaakt.
+
+Wanneer komen er nieuwe cijfers?
+In het derde kwartaal van 2019 verschijnen er voorlopige cijfers over 2018.
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Definities:
+
+Benamingen belangrijke doodsoorzaken
+De teksten van de belangrijke doodsoorzaken zijn ontstaan uit een samenvoeging van de vorige CBS 'Beldo-lijst' en de 'European shortlist' (versie 1998) van het Europees statistisch bureau in Luxemburg (Eurostat). De gebruikte doodsoorzaken zijn gebaseerd op de codes afkomstig uit de internationaal toegepaste codelijst, de zogenaamde International Statistical Classification of Diseases and Related Health Problems (ICD) van de World Health Organisation (WHO).
+
+De ICD is een internationaal toegepaste lijst van de World Health Organisation (WHO). Voor de hier gepresenteerde cijfers zijn de volgende revisies van de ICD van toepassing geweest:
+- Voor 1950-1957 ICD 6e revisie (1948)
+- Voor 1958-1968 ICD 7e revisie (1955)
+- Voor 1969-1978 ICD 8e revisie (1965)
+- Voor 1979-1995 ICD 9e revisie (1975)
+- Vanaf 1996 ICD 10e revisie (1992-1994).
+
+Onderliggende/primaire doodsoorzaak
+De onderliggende/primaire doodsoorzaak is de ziekte of de gebeurtenis waarmee de aaneenschakeling van gebeurtenissen die tot de dood leidde, startte. 
+
+Leeftijd
+Leeftijd op het moment van overlijden.
+
+Gemiddelde bevolking
+De gemiddelde bevolking van leeftijdsklasse L in jaar t is als volgt berekend: 
+((Bevolkingsaantal in leeftijdsklasse (L) op 1 januari jaar t)+
+(Bevolkingsaantal in leeftijdsklasse (L) op 1 januari jaar t+1))/2.
+Het gemiddeld aantal 0-jarigen in jaar t is als volgt berekend: 
+((aantal levendgeborenen in jaar t)+(0-jarigen op 1 januari jaar t+1))/2. 
+
+Voor de jaren 1950 t/m 1970 hoeven de totalen overledenen niet overeen te komen met de totalen in de tabel 'Sterfte; geslacht leeftijd (op laatste verjaardag) en burgerlijke staat'. Vanaf 1971 wordt het aantal overledenen geregistreerd in de Sterfte-tabel als leidend genomen. Indien er bij een sterftebericht geen doodsoorzaakverklaring binnen komt, wordt voor deze overledene de doodsoorzaak als onbekend ingevuld.
+
+Verklaring van symbolen:
+
+niets (blanco)	: het cijfer kan op logische gronden niet voorkomen
+. 		: het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*		: voorlopige cijfers
+**		: nader voorlopige cijfers
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Relevante tabellen:
+<a href=/""/http://statline.cbs.nl/StatWeb/dome/?LA=nl&TH=36380/""/>Tabellen Doodsoorzaken</a>.
+
+Meer informatie is te vinden op de themapagina <a 
+href=/""/https://www.cbs.nl/nl-nl/maatschappij/gezondheid-en-welzijn/""/>Gezondheid en welzijn</a>.
+
+4. BRONNEN EN METHODEN
+
+Gebruikte databron(nen) (buiten het CBS): 
+- Doodsoorzaakverklaring;
+- Basisregistratie personen (BRP).
+
+De onderzoeksmethodes zijn te vinden in de onderzoeksbeschrijvingen:
+- <a href=/""/https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/doodsoorzakenstatistiek/""/>Doodsoorzakenstatistiek</a>;
+- <a href=/""/https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/niet-natuurlijk-overlijden/""/>Niet-natuurlijk overlijden</a>.
+
+Documentatie over de overgang van handmatig naar automatisch coderen:
+- Het <a href=/""/https://www.cbs.nl/nl-nl/nieuws/2014/50/de-meeste-mensen-sterven-aan-kanker-en-hart-en-vaatziekten/""/>nieuwsbericht</a> bij de publicatie van de gegevens over doodsoorzaken 2013;
+- <a href=/""/https://www.cbs.nl/nl-nl/achtergrond/2015/51/van-handmatig-naar-automatisch-coderen-van-doodsoorzaken/""/>Van handmatig naar automatisch coderen van doodsoorzaken</a>;
+- <a href=/""/https://www.cbs.nl/nl-nl/achtergrond/2016/08/veranderingen-in-de-doodsoorzakenstatistiek-2012-2013/""/>Veranderingen in de doodsoorzakenstatistiek 2012–2013</a>;
+- <a href=/""/https://www.cbs.nl/nl-nl/achtergrond/2017/06/veranderingen-in-de-doodsoorzakenstatistiek-2013-2015/""/>Veranderingen in de doodsoorzakenstatistiek 2013–2015</a>.
+
+Documentatie over onderzoek naar de breuken en mogelijkheden voor reconstructie: <a href= /""/https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende%20onderzoeksbeschrijvingen/reconstructiemogelijkheden-van-lange-tijdreeksen-van-de-doodsoorzakenstatistiek/""/> Reconstructiemogelijkheden van lange tijdreeksen van de doodsoorzakenstatistiek op basis van tijdreeksanalyse</a>.
+
+Voor de volledige lijst van 4-tekencodes volgens ICD-10 behorende bij wegverkeersongevallen zie: <a
+href=/""/https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/aanvullende%20onderzoeksbeschrijvingen/wegverkeersongevallen-codelijst/""/>
+Wegverkeersongevallen-codelijst</a>.
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
+Verveelvoudiging is toegestaan, mits CBS als bron wordt vermeld.
+";"ts=1531732847884&graphtype=Table&r=Topics&k=Perioden&t=Geslacht,Leeftijd";"$filter=((Geslacht eq '1100')) and ((Leeftijd eq ' 10000')) and ((Perioden eq '1950JJ00') or (Perioden eq '1960JJ00') or (Perioden eq '1970JJ00') or (Perioden eq '1980JJ00') or (Perioden eq '1990JJ00') or (Perioden eq '2000JJ00') or (Perioden eq '2010JJ00') or (Perioden eq '2016JJ00') or (Perioden eq '2017JJ00'))&$select=Geslacht, Leeftijd, Perioden, TotaalInfectieuzeEnParasitaireZktn_2, k_11Tuberculose_3, k_12Meningokokkeninfecties_4, k_13ViraleHepatitis_5, k_14AIDS_6, k_15OvInfectieuzeEnParasitaireZktn_7, TotaalNieuwvormingen_8, TotaalKwaadaardigeNieuwvormingen_9, k_211KwNvVanLipMondEnKeel_10, k_212KwNvVanSlokdarm_11, k_213KwNvVanMaag_12, k_214KwNvVanDikkeDarm_13, k_215KwNvVanEndeldarmEnAnus_14, k_216KwNvLeverEnIntrahGalwegen_15, k_217KwNvVanGalblaasEnGalwegen_16, k_218KwNvVanAlvleesklier_17, k_219KwNvVanStrottenhoofd_18, k_2110KwNvVanLuchtpijpEnLong_19, k_2111MelanoomVanHuid_20, k_2112KwNvVanBorst_21, k_2113KwNvVanBaarmoederhals_22, k_2114KwNvVanBaarmoederlichaam_23, k_2115KwNvVanEierstok_24, k_2116KwNvVanProstaat_25, k_2117KwNvNierBehalveNierbekken_26, k_2118KwNvVanUrineblaas_27, k_2119KwNvLymfEnBloedvWeefsel_28, k_2120OvKwaadaardigeNieuwvormingen_29, k_22OverigeNieuwvormingen_30, k_3ZktnBloedBloedvormendeOrganenEn_31, TotaalEndocrieneVoedingsStofwiss_32, k_41Suikerziekte_33, k_42OvEndocrieneVoedingsStofwis_34, TotaalPsychischeStoornissen_35, k_51PsychischeStoornissenDoorAlcohol_36, k_52PsychischeStoornissenDrugsEnVl_37, k_53OverigePsychischeStoornissen_38, TotaalZiektenZenuwstelselEnZintuigen_39, k_61Hersenvliesontsteking_40, k_62ZiekteVanParkinson_41, k_63OvZktnZenuwstelselEnZintuigen_42, TotaalZiektenVanHartEnVaatstelsel_43, TotaalZiektenVanDeKransvaten_44, k_711AcuutHartinfarct_45, k_712OverigeZiektenVanDeKransvaten_46, k_72OverigeHartziekten_47, k_73Hersenvaatletsels_48, k_74OverigeZiektenHartEnVaatstelsel_49, TotaalZiektenVanDeAdemhalingsorganen_50, k_81Griep_51, k_82Longontsteking_52, TotaalChronischeAandOndersteLucht_53, k_831Astma_54, k_832OvChronAandOndersteLuchtw_55, k_84OverigeZiektenAdemhalingsorganen_56, TotaalZiektenSpijsverteringsorganen_57, k_91MaagzweerEnZweerAanTwaalfvinge_58, TotaalChronischeLeveraandoeningen_59, k_921ChronischeLeveraandAlcohol_60, k_922OvChronischeLeveraandoeningen_61, k_93OvZiektenSpijsverteringsorganen_62, k_10ZiektenVanHuidEnSubcutis_63, TotaalZiektenSpierenBeendBindwfsl_64, k_111ReumatoideArtritisEnArtrose_65, k_112OvZktnSpierenBeendBindwfsl_66, TotaalZktnUrinewegenEnGeslOrganen_67, k_121ZiektenVanNierEnUrineleider_68, k_122OvZktnUrinewegenEnGeslOrganen_69, k_13ZwangerschapBevallingEnKraambed_70, k_14AandoeningenVDPerinatalePeriode_71, TotaalAangeborenAfwijkingen_72, k_151AangeborenAfwZenuwstelsel_73, k_152AangeborenAfwHartEnBloedvaten_74, k_153OverigeAangeborenAfwijkingen_75, TotaalSympEnOnvollOmschrZiekte_76, k_161Wiegendood_77, k_162OnvollOmschrEnOnbekOorzaken_78, k_163OvSymptomenEnOnvolledigOmsch_79, TotaalUitwendigeDoodsoorzaken_80, TotaalOngevallen_81, TotaalVervoersongevallen_82, k_17111Wegverkeersongevallen_83, k_17112OverigeVervoersongevallen_84, k_1712AccidenteleVal_85, k_1713AccidenteleVerdrinking_86, k_1714AccidenteleVergiftiging_87, k_1715OverigeOngevallen_88, k_172Zelfdoding_89, k_173MoordEnDoodslag_90, k_174GebeurtenissenOpzetOnbekend_91, k_175OverigeUitwendigeDoodsoorzaken_92, GemiddeldeBevolking_93";"Table,Bar,Line";"Regulier";"CBS.";"2018-12-20T02:00:00";"3"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"Dimension";"Geslacht";"Geslacht";;;;;;
+"1";"1";;"Dimension";"Leeftijd";"Leeftijd";;;;;;
+"2";"2";;"TimeDimension";"Perioden";"Perioden";"";"true";;;;
+"3";"3";;"Topic";"TotaalOnderliggendeDoodsoorzaken_1";"Totaal onderliggende doodsoorzaken";"Alle onderliggende doodsoorzaken tezamen.
+Bijbehorende ICD-codes:
+ICD-10: A00-Y89;
+ICD-9: 001-E999;
+ICD-8: 000-E999;
+ICD-6+7: 000-E999";;"Long";"aantal";"0";"Impossible"
+"4";;;"TopicGroup";"";"1 Infectieuze en parasitaire ziekten";"1 Infectieuze en parasitaire ziekten.
+Bijbehorende ICD-codes:
+ICD-10: A00-B99;
+ICD-9: 001-139, 279.8 (Eigen CBS-code. Europese code: 040-042);
+ICD-8: 000-136;
+ICD-6+7: 000-138";;;;;
+"5";"4";"4";"Topic";"TotaalInfectieuzeEnParasitaireZktn_2";"Totaal infectieuze en parasitaire zktn";"Totaal infectieuze en parasitaire ziekten.
+Bijbehorende ICD-codes:
+ICD-10: A00-B99;
+ICD-9: 001-139, 279.8 (Eigen CBS-code. Europese code: 040-042);
+ICD-8: 000-136;
+ICD-6+7: 000-138";;"Long";"aantal";"0";"Impossible"
+"6";"5";"4";"Topic";"k_11Tuberculose_3";"1.1 Tuberculose";"1.1 Tuberculose (TBC).
+Bijbehorende ICD-codes:
+ICD-10: A15-A19, B90;
+ICD-9: 010-018, 137;
+ICD-8: 010-019;
+ICD-6+7: 001-019";;"Long";"aantal";"0";"Impossible"
+"7";"6";"4";"Topic";"k_12Meningokokkeninfecties_4";"1.2 Meningokokkeninfecties";"1.2 Meningokokkeninfecties.
+Bijbehorende ICD-codes:
+ICD-10: A39;
+ICD-9: 036;
+ICD-8: 036;
+ICD-6+7: 057";;"Long";"aantal";"0";"Impossible"
+"8";"7";"4";"Topic";"k_13ViraleHepatitis_5";"1.3 Virale hepatitis";"1.3 Virale hepatitis.
+Bijbehorende ICD-codes:
+ICD-10: B15-B19;
+ICD-9: 070;
+ICD-8: 070;
+ICD-6+7: 092";;"Long";"aantal";"0";"Impossible"
+"9";"8";"4";"Topic";"k_14AIDS_6";"1.4 AIDS";"1.4 Acquired Immune Deficiency Syndrome (AIDS).
+Bijbehorende ICD-codes:
+ICD-10: B20-B24;
+ICD-9: 279.8 (Eigen CBS-code. Europese code: 042-044);
+ICD-8: --;
+ICD-6+7: --";;"Long";"aantal";"0";"Impossible"
+"10";"9";"4";"Topic";"k_15OvInfectieuzeEnParasitaireZktn_7";"1.5 Ov. infectieuze en parasitaire zktn";"1.5 Overige infectieuze en parasitaire ziekten.
+Bijbehorende ICD-codes:
+ICD-10: A00-A09, A20-A38, A40-B09, B25-99;
+ICD-9: 001-009, 018-035, 037-066, 071-136, 138-139;
+ICD-8: 000-009, 020-035, 037-068, 070-136;
+ICD-6+7: 020-056, 058-091, 093-138";;"Long";"aantal";"0";"Impossible"
+"11";;;"TopicGroup";"";"2 Nieuwvormingen";"2 Nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: C00-D48;
+ICD-9: 140-239;
+ICD-8: 140-239;
+ICD-6+7: 140-239";;;;;
+"12";"10";"11";"Topic";"TotaalNieuwvormingen_8";"Totaal nieuwvormingen";"Totaal nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: C00-D48;
+ICD-9: 140-239;
+ICD-8: 140-239;
+ICD-6+7: 140-239";;"Long";"aantal";"0";"Impossible"
+"13";;"11";"TopicGroup";"";"2.1 Kwaadaardige nieuwvormingen";"2.1 Kwaadaardige nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: C00-C97;
+ICD-9: 140-208;
+ICD-8: 140-209;
+ICD-6+7: 140-207";;;;;
+"14";"11";"13";"Topic";"TotaalKwaadaardigeNieuwvormingen_9";"Totaal kwaadaardige nieuwvormingen";"Totaal kwaadaardige nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: C00-C97;
+ICD-9: 140-208;
+ICD-8: 140-209;
+ICD-6+7: 140-207";;"Long";"aantal";"0";"Impossible"
+"15";"12";"13";"Topic";"k_211KwNvVanLipMondEnKeel_10";"2.1.1 Kw. nv. van lip, mond en keel";"2.1.1 Kwaadaardige nieuwvorming van lip, mond en keel.
+Bijbehorende ICD-codes:
+ICD-10: C00-C14;
+ICD-9: 140-149;
+ICD-8: 140-149;
+ICD-6+7: 140-148";;"Long";"aantal";"0";"Impossible"
+"16";"13";"13";"Topic";"k_212KwNvVanSlokdarm_11";"2.1.2 Kw. nv. van slokdarm";"2.1.2 Kwaadaardige nieuwvorming van slokdarm (oesophagus).
+Bijbehorende ICD-codes:
+ICD-10: C15;
+ICD-9: 150;
+ICD-8: 150;
+ICD-6+7: 150";;"Long";"aantal";"0";"Impossible"
+"17";"14";"13";"Topic";"k_213KwNvVanMaag_12";"2.1.3 Kw. nv. van maag";"2.1.3 Kwaadaardige nieuwvorming van maag.
+Bijbehorende ICD-codes:
+ICD-10: C16;
+ICD-9: 151;
+ICD-8: 151;
+ICD-6+7: 151";;"Long";"aantal";"0";"Impossible"
+"18";"15";"13";"Topic";"k_214KwNvVanDikkeDarm_13";"2.1.4 Kw. nv. van dikke darm";"2.1.4 Kwaadaardige nieuwvorming van dikke darm (colon).
+Bijbehorende ICD-codes:
+ICD-10: C18;
+ICD-9: 153;
+ICD-8: 153;
+ICD-6+7: 153";;"Long";"aantal";"0";"Impossible"
+"19";"16";"13";"Topic";"k_215KwNvVanEndeldarmEnAnus_14";"2.1.5 Kw. nv. van endeldarm en anus";"2.1.5 Kwaadaardige nieuwvorming van endeldarm (rectum) en anus.
+Bijbehorende ICD-codes:
+ICD-10: C19-C21;
+ICD-9: 154;
+ICD-8: 154;
+ICD-6+7: 154";;"Long";"aantal";"0";"Impossible"
+"20";"17";"13";"Topic";"k_216KwNvLeverEnIntrahGalwegen_15";"2.1.6 Kw. nv. lever en intrah. galwegen";"2.1.6 Kwaadaardige nieuwvorming van lever en intrahepatische galwegen (gespecificeerd).
+Bijbehorende ICD-codes:
+ICD-10: C22.0 - C22.8;
+ICD-9: 155.0-155.1;
+ICD-8: 155;
+ICD-6+7: 155
+
+In de ICD-6+7 wordt geen onderscheid gemaakt tussen lever, intrahepatische galwegen, galblaas en galwegen. Om die reden worden alle overledenen aan deze ziekten in de periode 1950-1968 gerekend bij 2.1.6 Kwaadaardige nieuwvorming van lever en intrahepatische galwegen.
+
+
+";;"Long";"aantal";"0";"Impossible"
+"21";"18";"13";"Topic";"k_217KwNvVanGalblaasEnGalwegen_16";"2.1.7 Kw. nv. van galblaas en galwegen";"2.1.7 Kwaadaardige nieuwvorming van galblaas en galwegen.
+Bijbehorende ICD-codes:
+ICD-10: C23-C24;
+ICD-9: 156;
+ICD-8: 156;
+ICD-6+7: --
+
+In de ICD-6+7 wordt geen onderscheid gemaakt tussen lever, intrahepatische galwegen, galblaas en galwegen. Om die reden worden alle overledenen aan deze ziekten in de periode 1950-1968 gerekend bij 2.1.6 Kwaadaardige nieuwvorming van lever en intrahepatische galwegen.
+";;"Long";"aantal";"0";"Impossible"
+"22";"19";"13";"Topic";"k_218KwNvVanAlvleesklier_17";"2.1.8 Kw. nv. van alvleesklier";"2.1.8 Kwaadaardige nieuwvorming van alvleesklier (pancreas).
+Bijbehorende ICD-codes:
+ICD-10: C25;
+ICD-9: 157;
+ICD-8: 157;
+ICD-6+7: 157";;"Long";"aantal";"0";"Impossible"
+"23";"20";"13";"Topic";"k_219KwNvVanStrottenhoofd_18";"2.1.9 Kw. nv. van strottenhoofd";"2.1.9 Kwaadaardige nieuwvorming van strottenhoofd (larynx).
+Bijbehorende ICD-codes:
+ICD-10: C32;
+ICD-9: 161;
+ICD-8: 161;
+ICD-6+7: 161";;"Long";"aantal";"0";"Impossible"
+"24";"21";"13";"Topic";"k_2110KwNvVanLuchtpijpEnLong_19";"2.1.10 Kw. nv. van luchtpijp en long";"2.1.10 Kwaadaardige nieuwvorming van luchtpijp (-vertakkingen) en long.
+Bijbehorende ICD-codes:
+ICD-10: C33-C34;
+ICD-9: 162;
+ICD-8: 162;
+ICD-6+7: 162-163";;"Long";"aantal";"0";"Impossible"
+"25";"22";"13";"Topic";"k_2111MelanoomVanHuid_20";"2.1.11 Melanoom van huid";"2.1.11 Melanoom van huid.
+Bijbehorende ICD-codes:
+ICD-10: C43;
+ICD-9: 172;
+ICD-8: 172;
+ICD-6+7: 190";;"Long";"aantal";"0";"Impossible"
+"26";"23";"13";"Topic";"k_2112KwNvVanBorst_21";"2.1.12 Kw. nv. van borst";"2.1.12 Kwaadaardige nieuwvorming van borst (mamma).
+Bijbehorende ICD-codes:
+ICD-10: C50;
+ICD-9: 174-175;
+ICD-8: 174;
+ICD-6+7: 170
+";;"Long";"aantal";"0";"Impossible"
+"27";"24";"13";"Topic";"k_2113KwNvVanBaarmoederhals_22";"2.1.13 Kw. nv. van baarmoederhals";"2.1.13 Kwaadaardige nieuwvorming van baarmoederhals (cervix uteri).
+Bijbehorende ICD-codes:
+ICD-10: C53;
+ICD-9: 180;
+ICD-8: 180;
+ICD-6+7: 171
+";;"Long";"aantal";"0";"Impossible"
+"28";"25";"13";"Topic";"k_2114KwNvVanBaarmoederlichaam_23";"2.1.14 Kw. nv. van baarmoederlichaam";"2.1.14 Kwaadaardige nieuwvorming van baarmoederlichaam (corpus uteri en uteri niet nader onderverdeeld).
+Bijbehorende ICD-codes:
+ICD-10: C54-C55;
+ICD-9: 179,182;
+ICD-8: 182;
+ICD-6+7: 172-174";;"Long";"aantal";"0";"Impossible"
+"29";"26";"13";"Topic";"k_2115KwNvVanEierstok_24";"2.1.15 Kw. nv. van eierstok";"2.1.15 Kwaadaardige nieuwvorming van eierstok (ovarium).
+Bijbehorende ICD-codes:
+ICD-10: C56;
+ICD-9: 183.0;
+ICD-8: 183.0;
+ICD-6+7: 175";;"Long";"aantal";"0";"Impossible"
+"30";"27";"13";"Topic";"k_2116KwNvVanProstaat_25";"2.1.16 Kw. nv. van prostaat";"2.1.16 Kwaadaardige nieuwvorming van prostaat.
+Bijbehorende ICD-codes:
+ICD-10: C61;
+ICD-9: 185;
+ICD-8: 185;
+ICD-6+7: 177
+";;"Long";"aantal";"0";"Impossible"
+"31";"28";"13";"Topic";"k_2117KwNvNierBehalveNierbekken_26";"2.1.17 Kw. nv. nier, behalve nierbekken";"2.1.17 Kwaadaardige nieuwvorming van nier, behalve nierbekken.
+Bijbehorende ICD-codes:
+ICD-10: C64;
+ICD-9: 189.0;
+ICD-8: 189.0;
+ICD-6+7: 180
+";;"Long";"aantal";"0";"Impossible"
+"32";"29";"13";"Topic";"k_2118KwNvVanUrineblaas_27";"2.1.18 Kw. nv. van urineblaas";"2.1.18 Kwaadaardige nieuwvorming van urineblaas.
+Bijbehorende ICD-codes:
+ICD-10: C67;
+ICD-9: 188;
+ICD-8: 188;
+ICD-6+7: 181
+";;"Long";"aantal";"0";"Impossible"
+"33";"30";"13";"Topic";"k_2119KwNvLymfEnBloedvWeefsel_28";"2.1.19 Kw. nv. lymf. en bloedv. weefsel";"2.1.19 Kwaadaardige nieuwvorming van lymfatisch en bloedvormend weefsel.
+Bijbehorende ICD-codes:
+ICD-10: C81-C96;
+ICD-9: 200-208;
+ICD-8: 200-209;
+ICD-6+7: 200-207
+";;"Long";"aantal";"0";"Impossible"
+"34";"31";"13";"Topic";"k_2120OvKwaadaardigeNieuwvormingen_29";"2.1.20 Ov. kwaadaardige nieuwvormingen";"2.1.20 Overige kwaadaardige nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: C17, C22.9, C26-C31, C35-C41, C44-C49, C51-C52, C57-C60,
+    C62-C63, C65-C66, C68-C80, C97;
+ICD-9: 152, 155.2, 158-160, 163-171, 173, 179, 181, 183.2-183,9, 184,
+           186-187, 189.1-189.9, 190-199;
+ICD-8: 452,158-160, 163-171, 173, 181, 183.1-183.9, 184, 186-187,
+           189.1-189.9, 190-199;
+ICD-6+7: 152, 158-160, 164-165, 176, 178-179, 191-199
+";;"Long";"aantal";"0";"Impossible"
+"35";"32";"11";"Topic";"k_22OverigeNieuwvormingen_30";"2.2 Overige nieuwvormingen";"2.2 Overige nieuwvormingen.
+Bijbehorende ICD-codes:
+ICD-10: D00-D48;
+ICD-9: 219-239;
+ICD-8: 210-239;
+ICD-6+7: 210-239
+";;"Long";"aantal";"0";"Impossible"
+"36";"33";;"Topic";"k_3ZktnBloedBloedvormendeOrganenEn_31";"3 Zktn bloed, bloedvormende organen en..";"Ziekten van bloed en bloedvormende organen en bepaalde aandoeningen van immuunsysteem.
+Bijbehorende ICD-codes:
+ICD-10: D50-D89;
+ICD-9: 279-289 excl. 279.8;
+ICD-8: 280-289;
+ICD-6+7: 290-299";;"Long";"aantal";"0";"Impossible"
+"37";;;"TopicGroup";"";"4 Endocriene, voedings-, stofwiss. zktn";"4 Endocriene, voedings-, stofwisselingsziekten.
+Bijbehorende ICD-codes:
+ICD-10: E00-E90;
+ICD-9: 240-278;
+ICD-8: 240-279;
+ICD-6+7: 250-289
+";;;;;
+"38";"34";"37";"Topic";"TotaalEndocrieneVoedingsStofwiss_32";"Totaal endocriene, voedings-, stofwiss..";"Totaal endocriene, voedings-, stofwisselingsziekten.
+Bijbehorende ICD-codes:
+ICD-10: E00-E90;
+ICD-9: 240-278;
+ICD-8: 240-279;
+ICD-6+7: 250-289
+";;"Long";"aantal";"0";"Impossible"
+"39";"35";"37";"Topic";"k_41Suikerziekte_33";"4.1 Suikerziekte";"4.1 Suikerziekte (diabetes mellitus).
+Bijbehorende ICD-codes:
+ICD-10: E10-E14;
+ICD-9: 250;
+ICD-8: 250;
+ICD-6+7: 260
+";;"Long";"aantal";"0";"Impossible"
+"40";"36";"37";"Topic";"k_42OvEndocrieneVoedingsStofwis_34";"4.2 Ov. endocriene, voedings-, stofwis..";"4.2 Overige endocriene, voedings-, stofwisselingsziekten.
+Bijbehorende ICD-codes:
+ICD-10: E00-E07, E15-E90;
+ICD-9: 240-246, 251-278;
+ICD-8: 240-246, 251-279;
+ICD-6+7: 250-254, 270-289
+";;"Long";"aantal";"0";"Impossible"
+"41";;;"TopicGroup";"";"5 Psychische en gedragsstoornissen";"5 Psychische stoornissen en gedragsstoornissen.
+Bijbehorende ICD-codes:
+ICD-10: F00-F99;
+ICD-9: 290-319;
+ICD-8: 290-315;
+ICD-6+7: 300-326
+";;;;;
+"42";"37";"41";"Topic";"TotaalPsychischeStoornissen_35";"Totaal psychische stoornissen";"Totaal psychische stoornissen.
+Bijbehorende ICD-codes:
+ICD-10: F00-F99;
+ICD-9: 290-319;
+ICD-8: 290-315;
+ICD-6+7: 300-326
+";;"Long";"aantal";"0";"Impossible"
+"43";"38";"41";"Topic";"k_51PsychischeStoornissenDoorAlcohol_36";"5.1 Psychische stoornissen door alcohol";"5.1 Psychische stoornissen door gebruik van alcohol.
+Bijbehorende ICD-codes:
+ICD-10: F10;
+ICD-9: 291, 303, 305.0;
+ICD-8: 291, 303;
+ICD-6+7: 307, 322
+";;"Long";"aantal";"0";"Impossible"
+"44";"39";"41";"Topic";"k_52PsychischeStoornissenDrugsEnVl_37";"5.2 Psychische stoornissen drugs en vl..";"5.2 Psychische stoornissen door gebruik drugs en vluchtige oplosmiddelen.
+Bijbehorende ICD-codes:
+ICD-10: F11-F16, F18-F19;
+ICD-9: 304, 305.2-305.9;
+ICD-8: 304;
+ICD-6+7: 323
+";;"Long";"aantal";"0";"Impossible"
+"45";"40";"41";"Topic";"k_53OverigePsychischeStoornissen_38";"5.3 Overige psychische stoornissen";"5.3 Overige psychische stoornissen.
+Bijbehorende ICD-codes:
+ICD-10: F00-F09, F17-F99;
+ICD-9: 290, 292-302, 305.1, 306-319;
+ICD-8: 290, 292-302, 305-315;
+ICD-6+7: 300-306, 308-321, 324-326
+";;"Long";"aantal";"0";"Impossible"
+"46";;;"TopicGroup";"";"6 Ziekten van zenuwstelsel en zintuigen";"6 Ziekten van zenuwstelsel en zintuigen.
+Bijbehorende ICD-codes:
+ICD-10: G00-H95;
+ICD-9: 320-389;
+ICD-8: 320-389;
+ICD-6+7: 340-398
+";;;;;
+"47";"41";"46";"Topic";"TotaalZiektenZenuwstelselEnZintuigen_39";"Totaal ziekten zenuwstelsel en zintuigen";"Totaal ziekten van zenuwstelsel en zintuigen.
+Bijbehorende ICD-codes:
+ICD-10: G00-H95;
+ICD-9: 320-389;
+ICD-8: 320-389;
+ICD-6+7: 340-398
+";;"Long";"aantal";"0";"Impossible"
+"48";"42";"46";"Topic";"k_61Hersenvliesontsteking_40";"6.1 Hersenvliesontsteking";"6.1 Hersenvliesontsteking (meningitis).
+Bijbehorende ICD-codes:
+ICD-10: G00-G03;
+ICD-9: 320-322;
+ICD-8: 320;
+ICD-6+7: 340
+";;"Long";"aantal";"0";"Impossible"
+"49";"43";"46";"Topic";"k_62ZiekteVanParkinson_41";"6.2 Ziekte van Parkinson";"6.2 Ziekte van Parkinson.
+Bijbehorende ICD-codes:
+ICD-10: G20-G21;
+ICD-9: 332;
+ICD-8: 342;
+ICD-6+7: 350
+";;"Long";"aantal";"0";"Impossible"
+"50";"44";"46";"Topic";"k_63OvZktnZenuwstelselEnZintuigen_42";"6.3 Ov. zktn zenuwstelsel en zintuigen";"6.3 Overige ziekten van zenuwstelsel en zintuigen.
+Bijbehorende ICD-codes:
+ICD-10: G04-G13, G22-H95;
+ICD-9: 323-331, 333-389;
+ICD-8: 321-341, 343-389;
+ICD-6+7: 341-345, 351-398
+";;"Long";"aantal";"0";"Impossible"
+"51";;;"TopicGroup";"";"7 Ziekten van hart en vaatstelsel";"7 Ziekten van hart en vaatstelsel.
+Bijbehorende ICD-codes:
+ICD-10: I00-I99;
+ICD-9: 390-459;
+ICD-8: 390-458;
+ICD-6+7: 330-334, 400-468
+";;;;;
+"52";"45";"51";"Topic";"TotaalZiektenVanHartEnVaatstelsel_43";"Totaal ziekten van hart en vaatstelsel";"Totaal ziekten van hart en vaatstelsel.
+Bijbehorende ICD-codes:
+ICD-10: I00-I99;
+ICD-9: 390-459;
+ICD-8: 390-458;
+ICD-6+7: 330-334, 400-468
+";;"Long";"aantal";"0";"Impossible"
+"53";;"51";"TopicGroup";"";"7.1 Ziekten van de kransvaten";"7.1 Ziekten van de kransvaten (ischemische hartziekten).
+Bijbehorende ICD-codes:
+ICD-10: I20-I25;
+ICD-9: 410-414;
+ICD-8: 410-414;
+ICD-6+7: 420, 422.1
+";;;;;
+"54";"46";"53";"Topic";"TotaalZiektenVanDeKransvaten_44";"Totaal ziekten van de kransvaten";"Totaal ziekten van de kransvaten (ischemische hartziekten).
+Bijbehorende ICD-codes:
+ICD-10: I20-I25;
+ICD-9: 410-414;
+ICD-8: 410-414;
+ICD-6+7: 420, 422.1
+";;"Long";"aantal";"0";"Impossible"
+"55";"47";"53";"Topic";"k_711AcuutHartinfarct_45";"7.1.1 Acuut hartinfarct";"7.1.1 Acuut hartinfarct.
+Bijbehorende ICD-codes:
+ICD-10: I21-I22;
+ICD-9: 410;
+ICD-8: 410;
+ICD-6+7: 420.1
+";;"Long";"aantal";"0";"Impossible"
+"56";"48";"53";"Topic";"k_712OverigeZiektenVanDeKransvaten_46";"7.1.2 Overige ziekten van de kransvaten";"7.1.2 Overige ziekten van de kransvaten.
+Bijbehorende ICD-codes:
+ICD-10: I20, I23-I25;
+ICD-9: 411-414;
+ICD-8: 411-414;
+ICD-6+7: 420.0, 420.2, 422.1
+";;"Long";"aantal";"0";"Impossible"
+"57";"49";"51";"Topic";"k_72OverigeHartziekten_47";"7.2 Overige hartziekten";"7.2 Overige hartziekten.
+Bijbehorende ICD-codes:
+ICD-10: I30-I33, I39-I52;
+ICD-9: 420-423, 425-429;
+ICD-8: 420-423, 425-429;
+ICD-6+7: 451-468, 430-439
+";;"Long";"aantal";"0";"Impossible"
+"58";"50";"51";"Topic";"k_73Hersenvaatletsels_48";"7.3 Hersenvaatletsels";"7.3 Hersenvaatletsels (CVA).
+Bijbehorende ICD-codes:
+ICD-10: I60-I69;
+ICD-9: 430-438;
+ICD-8: 430-438;
+ICD-6+7: 330-334
+";;"Long";"aantal";"0";"Impossible"
+"59";"51";"51";"Topic";"k_74OverigeZiektenHartEnVaatstelsel_49";"7.4 Overige ziekten hart en vaatstelsel";"7.4 Overige ziekten van hart en vaatstelsel.
+Bijbehorende ICD-codes:
+ICD-10: I00-I15, I26-I28, I34-I38, I70-I99;
+ICD-9: 390-405, 415-417, 424, 440-459;
+ICD-8: 390-404, 424, 440-458;
+ICD-6+7: 400-416, 421-422.0, 422.2, 440-468
+";;"Long";"aantal";"0";"Impossible"
+"60";;;"TopicGroup";"";"8 Ziekten van de ademhalingsorganen";"8 Ziekten van de ademhalingsorganen.
+Bijbehorende ICD-codes:
+ICD-10: J00-J99;
+ICD-9: 460-519;
+ICD-8: 460-519;
+ICD-6+7: 240-241, 470-527
+";;;;;
+"61";"52";"60";"Topic";"TotaalZiektenVanDeAdemhalingsorganen_50";"Totaal ziekten van de ademhalingsorganen";"Totaal ziekten van de ademhalingsorganen.
+Bijbehorende ICD-codes:
+ICD-10: J00-J99;
+ICD-9: 460-519;
+ICD-8: 460-519;
+ICD-6+7: 240-241, 470-527
+";;"Long";"aantal";"0";"Impossible"
+"62";"53";"60";"Topic";"k_81Griep_51";"8.1 Griep";"8.1 Griep (influenza).
+Bijbehorende ICD-codes:
+ICD-10: J09-J11;
+ICD-9: 487;
+ICD-8: 470-474;
+ICD-6+7: 480-483
+
+Sinds 2009 is aan de ICD10 de code J09 toegevoegd. Deze code wordt geteld bij 8.1 Griep.
+
+";;"Long";"aantal";"0";"Impossible"
+"63";"54";"60";"Topic";"k_82Longontsteking_52";"8.2 Longontsteking";"8.2 Longontsteking (pneumonie).
+Bijbehorende ICD-codes:
+ICD-10: J12-J18;
+ICD-9: 480-486;
+ICD-8: 480-486;
+ICD-6+7:490-493
+";;"Long";"aantal";"0";"Impossible"
+"64";;"60";"TopicGroup";"";"8.3 Chron. aand. onderste luchtwegen";"8.3 Chronische aandoeningen onderste luchtwegen (CARA).
+Bijbehorende ICD-codes:
+ICD-10: J40-J47;
+ICD-9: 490-494, 496;
+ICD-8: 490-493, 518;
+ICD-6+7: 241, 501-502;
+
+";;;;;
+"65";"55";"64";"Topic";"TotaalChronischeAandOndersteLucht_53";"Totaal chronische aand. onderste lucht..";"Totaal chronische aandoeningen onderste luchtwegen.
+Bijbehorende ICD-codes:
+ICD-10: J40-J47;
+ICD-9: 490-494, 496;
+ICD-8: 490-493, 518;
+ICD-6+7: 241, 501-502 
+";;"Long";"aantal";"0";"Impossible"
+"66";"56";"64";"Topic";"k_831Astma_54";"8.3.1 Astma";"8.3.1 Astma.
+Bijbehorende ICD-codes:
+ICD-10: J45-J46;
+ICD-9: 493;
+ICD-8: 493;
+ICD-6+7: 241
+";;"Long";"aantal";"0";"Impossible"
+"67";"57";"64";"Topic";"k_832OvChronAandOndersteLuchtw_55";"8.3.2 Ov. chron. aand. onderste luchtw..";"8.3.2 Overige chronische aandoeningen onderste luchtwegen.
+Bijbehorende ICD-codes:
+ICD-10: J40-J44, J47;
+ICD-9: 490-492, 494, 496;
+ICD-8: 490-492, 518;
+ICD-6+7: 501-502
+";;"Long";"aantal";"0";"Impossible"
+"68";"58";"60";"Topic";"k_84OverigeZiektenAdemhalingsorganen_56";"8.4 Overige ziekten ademhalingsorganen";"8.4 Overige ziekten van de ademhalingsorganen.
+Bijbehorende ICD-codes:
+ICD-10: J00-J06, J20-J39, J60-J99;
+ICD-9: 460-478, 495-519;
+ICD-8: 460-466, 500-517, 519;
+ICD-6+7: 240, 470-475, 500, 510-527
+";;"Long";"aantal";"0";"Impossible"
+"69";;;"TopicGroup";"";"9 Ziekten van de spijsverteringsorganen";"9 Ziekten van de spijsverteringsorganen.
+Bijbehorende ICD-codes:
+ICD-10: K00-K93;
+ICD-9: 520-579;
+ICD-8: 520-577;
+ICD-6+7: 530-587
+";;;;;
+"70";"59";"69";"Topic";"TotaalZiektenSpijsverteringsorganen_57";"Totaal ziekten spijsverteringsorganen";"Totaal ziekten van de spijsverteringsorganen.
+Bijbehorende ICD-codes:
+ICD-10: K00-K93;
+ICD-9: 520-579;
+ICD-8: 520-577;
+ICD-6+7: 530-587
+";;"Long";"aantal";"0";"Impossible"
+"71";"60";"69";"Topic";"k_91MaagzweerEnZweerAanTwaalfvinge_58";"9.1 Maagzweer en zweer aan twaalfvinge..";"9.1 Maagzweer en zweer aan twaalfvingerige en nuchtere darm.
+Bijbehorende ICD-codes:
+ICD-10: K25-K28;
+ICD-9: 531-534;
+ICD-8: 531-534;
+ICD-6+7: 540-542
+";;"Long";"aantal";"0";"Impossible"
+"72";;"69";"TopicGroup";"";"9.2 Chronische leveraandoeningen";"9.2 Chronische leveraandoeningen.
+Bijbehorende ICD-codes:
+ICD-10: K70,K73-K74;
+ICD-9: 571;
+ICD-8: 571;
+ICD-6+7: 581
+";;;;;
+"73";"61";"72";"Topic";"TotaalChronischeLeveraandoeningen_59";"Totaal chronische leveraandoeningen";"Totaal chronische leveraandoeningen.
+Bijbehorende ICD-codes:
+ICD-10: K70,K73-K74;
+ICD-9: 571;
+ICD-8: 571;
+ICD-6+7: 581
+";;"Long";"aantal";"0";"Impossible"
+"74";"62";"72";"Topic";"k_921ChronischeLeveraandAlcohol_60";"9.2.1 Chronische leveraand. alcohol";"9.2.1 Chronische leveraandoeningen onder invloed van alcohol.
+Bijbehorende ICD-codes:
+ICD-10: K70;
+ICD-9: 571.0-571.3;
+ICD-8: 571.0;
+Icd-6+7: 581.1
+
+";;"Long";"aantal";"0";"Impossible"
+"75";"63";"72";"Topic";"k_922OvChronischeLeveraandoeningen_61";"9.2.2 Ov. chronische leveraandoeningen";"9.2.2 Overige chronische leveraandoeningen.
+Bijbehorende ICD-codes:
+ICD-10: K73-K74;
+ICD-9: 571.4-571.9;
+ICD-8: 571.8-571.9;
+Icd-6+7: 581.0
+";;"Long";"aantal";"0";"Impossible"
+"76";"64";"69";"Topic";"k_93OvZiektenSpijsverteringsorganen_62";"9.3 Ov. ziekten spijsverteringsorganen";"9.3 Overige ziekten van de spijsverteringsorganen.
+Bijbehorende ICD-codes:
+ICD-10: K00-K23, K29-K67, K71-K72, K75-K93;
+ICD-9: 520-530, 535-570, 572-579;
+ICD-8: 520-530, 535-570, 572-577;
+ICD-6+7: 530-539, 543-580, 582-587
+";;"Long";"aantal";"0";"Impossible"
+"77";"65";;"Topic";"k_10ZiektenVanHuidEnSubcutis_63";"10 Ziekten van huid en subcutis";"10 Ziekten van huid en subcutis (onderhuids bindweefsel).
+Bijbehorende ICD-codes:
+ICD-10: L00-L99;
+ICD-9: 680-709;
+ICD-8: 680-709;
+ICD-6+7: 242-244, 690-716
+";;"Long";"aantal";"0";"Impossible"
+"78";;;"TopicGroup";"";"11 Ziekten botspierstelsel en bindweef..";"11 Ziekten botspierstelsel en bindweefsel
+Bijbehorende ICD-codes:
+ICD-10: M00-M99;
+ICD-9: 710-739;
+ICD-8: 710-738;
+ICD-6+7: 720-749
+";;;;;
+"79";"66";"78";"Topic";"TotaalZiektenSpierenBeendBindwfsl_64";"Totaal ziekten spieren, beend., bindwfsl";"Totaal ziekten van spieren, beenderen en bindweefsel.
+Bijbehorende ICD-codes:
+ICD-10: M00-M99;
+ICD-9: 710-739;
+ICD-8: 710-738;
+ICD-6+7: 720-749
+";;"Long";"aantal";"0";"Impossible"
+"80";"67";"78";"Topic";"k_111ReumatoideArtritisEnArtrose_65";"11.1 Reumatoïde artritis en artrose";"11.1 Reumatoïde artritis en artrose.
+Bijbehorende ICD-codes:
+ICD-10: M05-M06, M15-M19;
+ICD-9: 714-715;
+ICD-8: 712-713;
+ICD-6+7: 722
+";;"Long";"aantal";"0";"Impossible"
+"81";"68";"78";"Topic";"k_112OvZktnSpierenBeendBindwfsl_66";"11.2 Ov. zktn spieren, beend., bindwfsl";"11.2 Overige ziekten van spieren, beenderen en bindweefsel.
+Bijbehorende ICD-codes:
+ICD-10: M00-M03, M07-M99;
+ICD-9: 710-713, 716-739;
+ICD-8: 710-711, 714-738;
+ICD-6+7: 720-721, 723-749
+";;"Long";"aantal";"0";"Impossible"
+"82";;;"TopicGroup";"";"12 Ziekten van urogenitaal stelsel";"12 Ziekten van urogenitaal stelsel; Ziekten urinewegen en geslachtsorganen.
+Bijbehorende ICD-codes:
+ICD-10: N00-N99;
+ICD-9: 580-629;
+ICD-8: 580-629, 792;
+ICD-6+7: 590-637, 792";;;;;
+"83";"69";"82";"Topic";"TotaalZktnUrinewegenEnGeslOrganen_67";"Totaal zktn urinewegen en gesl. organen";"Totaal ziekten urinewegen en geslachtsorganen.
+Bijbehorende ICD-codes:
+ICD-10: N00-N99;
+ICD-9: 580-629;
+ICD-8: 580-629, 792";;"Long";"aantal";"0";"Impossible"
+"84";"70";"82";"Topic";"k_121ZiektenVanNierEnUrineleider_68";"12.1 Ziekten van nier en urineleider";"12.1 Ziekten van nier en urineleider.
+Bijbehorende ICD-codes:
+ICD-10: N00-N20, N22-N29;
+ICD-9: 580-593;
+ICD-8: 580-593;
+ICD-6+7: 590-609
+";;"Long";"aantal";"0";"Impossible"
+"85";"71";"82";"Topic";"k_122OvZktnUrinewegenEnGeslOrganen_69";"12.2 Ov. zktn urinewegen en gesl.organen";"12.2 Overige ziekten urinewegen en geslachtsorganen.
+Bijbehorende ICD-codes:
+ICD-10: N21, N30-N99;
+ICD-9: 594-629;
+ICD-8: 594-629, 792;
+ICD-6+7: 610-637, 792
+";;"Long";"aantal";"0";"Impossible"
+"86";"72";;"Topic";"k_13ZwangerschapBevallingEnKraambed_70";"13 Zwangerschap, bevalling en kraambed.";"13 Complicaties van zwangerschap, bevalling, kraambed (moedersterfte).
+Bijbehorende ICD-codes:
+ICD-10: O00-O99;
+ICD-9: 630-676;
+ICD-8: 630-678;
+ICD-6+7: 640-689
+";;"Long";"aantal";"0";"Impossible"
+"87";"73";;"Topic";"k_14AandoeningenVDPerinatalePeriode_71";"14 Aandoeningen v.d. perinatale periode";"14 Aandoeningen van de perinatale periode.
+Bijbehorende ICD-codes:
+ICD-10: P00-P96;
+ICD-9: 760-779;
+ICD-8: 760-779;
+ICD-6+7: 760-776
+";;"Long";"aantal";"0";"Impossible"
+"88";;;"TopicGroup";"";"15 Aangeboren afwijkingen";"15 Congenitale afwijkingen, misvormingen en chromosoomafwijkingen.
+Bijbehorende ICD-codes:
+ICD-10: Q00-Q99;
+ICD-9: 740-759;
+ICD-8: 740-759;
+ICD-6+7: 750-759
+";;;;;
+"89";"74";"88";"Topic";"TotaalAangeborenAfwijkingen_72";"Totaal aangeboren afwijkingen";"Totaal aangeboren afwijkingen.
+Bijbehorende ICD-codes:
+ICD-10: Q00-Q99;
+ICD-9: 740-759;
+ICD-8: 740-759;
+ICD-6+7: 750-759
+";;"Long";"aantal";"0";"Impossible"
+"90";"75";"88";"Topic";"k_151AangeborenAfwZenuwstelsel_73";"15.1 Aangeboren afw. zenuwstelsel";"15.1 Aangeboren afwijkingen van zenuwstelsel.
+Bijbehorende ICD-codes:
+ICD-10: Q00-Q07;
+ICD-9: 740-742;
+ICD-8: 740-743;
+ICD-6+7: 750-753
+";;"Long";"aantal";"0";"Impossible"
+"91";"76";"88";"Topic";"k_152AangeborenAfwHartEnBloedvaten_74";"15.2 Aangeboren afw. hart en bloedvaten";"15.2 Aangeboren afwijkingen van hart en bloedvaten.
+Bijbehorende ICD-codes:
+ICD-10: Q20-Q28;
+ICD-9: 745-747;
+ICD-8: 746-747;
+ICD-6+7: 754
+";;"Long";"aantal";"0";"Impossible"
+"92";"77";"88";"Topic";"k_153OverigeAangeborenAfwijkingen_75";"15.3 Overige aangeboren afwijkingen";"15.3 Overige aangeboren afwijkingen.
+Bijbehorende ICD-codes:
+ICD-10: Q10-Q18, Q30-Q99;
+ICD-9: 743-744, 748-759;
+ICD-8: 744-745, 748-759;
+ICD-6+7: 755-759
+";;"Long";"aantal";"0";"Impossible"
+"93";;;"TopicGroup";"";"16 Sympt., afwijkende klinische bevind..";"16 Symptomen, afwijkende klinische bevindingen en laboratoriumuitslagen, niet elders geclassificeerd.
+Bijbehorende ICD-codes:
+ICD-10: R00-R99;
+ICD-9: 780-799;
+ICD-8: 780-791, 793-796;
+ICD-6+7: 780-791, 793-795
+";;;;;
+"94";"78";"93";"Topic";"TotaalSympEnOnvollOmschrZiekte_76";"Totaal symp. en onvoll. omschr. ziekte..";"Totaal symptomen en onvolledig omschreven ziektebeelden.
+Bijbehorende ICD-codes:
+ICD-10: R00-R99;
+ICD-9: 780-799;
+ICD-8: 780-791, 793-796;
+ICD-6+7: 780-791, 793-795
+";;"Long";"aantal";"0";"Impossible"
+"95";"79";"93";"Topic";"k_161Wiegendood_77";"16.1 Wiegendood";"16.1 Wiegendood (SIDS).
+Bijbehorende ICD-codes:
+ICD-10: R95;
+ICD-9: 798.0 bij < 1 jaar;
+ICD-8: 795 bij < 1 jaar;
+ICD-6+7: --
+";;"Long";"aantal";"0";"Impossible"
+"96";"80";"93";"Topic";"k_162OnvollOmschrEnOnbekOorzaken_78";"16.2 Onvoll. omschr. en onbek. oorzaken";"16.2 Onvolledig omschreven en onbekende oorzaken.
+Bijbehorende ICD-codes:
+ICD-10: R96-R99;
+ICD-9: 798.1-799.9;
+ICD-8: 795-796;
+ICD-6+7: 795
+";;"Long";"aantal";"0";"Impossible"
+"97";"81";"93";"Topic";"k_163OvSymptomenEnOnvolledigOmsch_79";"16.3 Ov. symptomen en onvolledig omsch..";"16.3 Overige symptomen en onvolledig omschreven ziektebeelden.
+Bijbehorende ICD-codes:
+ICD-10: R00-R94;
+ICD-9: 780-797;
+ICD-8: 793-794;
+ICD-6+7: 780-791, 793-794
+";;"Long";"aantal";"0";"Impossible"
+"98";;;"TopicGroup";"";"17 Uitwendige doodsoorzaken";"17 Uitwendige oorzaken van ziekte en sterfte.
+Bijbehorende ICD-codes:
+ICD-10: V01-Y89;
+ICD-9: E800-E999;
+ICD-8: E800-E999;
+ICD-6+7: E800-E999
+";;;;;
+"99";"82";"98";"Topic";"TotaalUitwendigeDoodsoorzaken_80";"Totaal uitwendige doodsoorzaken";"Totaal uitwendige doodsoorzaken.
+Bijbehorende ICD-codes:
+ICD-10: V01-Y89;
+ICD-9: E800-E999;
+ICD-8: E800-E999;
+ICD-6+7: E800-E999
+";;"Long";"aantal";"0";"Impossible"
+"100";;"98";"TopicGroup";"";"17.1 Ongevallen";"17.1 Ongevallen.
+Bijbehorende ICD-codes:
+ICD-10: V01-X59;
+ICD-9: E800-E929;
+ICD-8: E800-E929, E940-E949;
+ICD-6+7: E800-E936, E960-E962
+";;;;;
+"101";"83";"100";"Topic";"TotaalOngevallen_81";"Totaal ongevallen";"Totaal ongevallen.
+Bijbehorende ICD-codes:
+ICD-10: V01-X59;
+ICD-9: E800-E929;
+ICD-8: E800-E929, E940-E949;
+ICD-6+7: E800-E936, E960-E962
+";;"Long";"aantal";"0";"Impossible"
+"102";;"100";"TopicGroup";"";"17.1.1 Vervoersongevallen";"17.1.1 Vervoersongevallen
+Bijbehorende ICD-codes:
+ICD-10: V01-V99;
+ICD-9: E800-E848;
+ICD-8: E800-E845, E940-E941;
+ICD-6+7: E800-E866, E960
+";;;;;
+"103";"84";"102";"Topic";"TotaalVervoersongevallen_82";"Totaal vervoersongevallen";"Totaal vervoersongevallen.
+Bijbehorende ICD-codes:
+ICD-10: V01-V99;
+ICD-9: E800-E848;
+ICD-8: E800-E845, E940-E941;
+ICD-6+7: E800-E866, E960
+";;"Long";"aantal";"0";"Impossible"
+"104";"85";"102";"Topic";"k_17111Wegverkeersongevallen_83";"17.1.1.1 Wegverkeersongevallen";"17.1.1.1 Wegverkeersongevallen.
+Bijbehorende ICD-codes:
+ICD-10: Zie de tabeltoelichting voor een link naar de betreffende lijst
+van 4-tekencodes;
+ICD-9: E810-E819, E826-E829;
+ICD-8: E810-E819, E825-E827, E940-E941;
+ICD-6+7:E810-E825, E840-E845, E960
+
+";;"Long";"aantal";"0";"Impossible"
+"105";"86";"102";"Topic";"k_17112OverigeVervoersongevallen_84";"17.1.1.2 Overige vervoersongevallen";"17.1.1.2 Overige vervoersongevallen.
+Bijbehorende ICD-codes:
+ICD-10: V01-V99 minus  de betreffende lijst van 4-tekencodes, zie de link in de tabeltoelichting;
+ICD-9: E800-E807, E820-E825, E830-E848;
+ICD-8: E800-E807, E820-E823, E830-E845;
+ICD-6+7: E800-E802, E830-E835, E850-E866
+";;"Long";"aantal";"0";"Impossible"
+"106";"87";"100";"Topic";"k_1712AccidenteleVal_85";"17.1.2 Accidentele val";"17.1.2 Accidentele val.
+Bijbehorende ICD-codes:
+ICD-10: W00-W19, X59;
+ICD-9: E880-E888;
+ICD-8: E880-E887;
+ICD-6+7: E900-E904
+";;"Long";"aantal";"0";"Impossible"
+"107";"88";"100";"Topic";"k_1713AccidenteleVerdrinking_86";"17.1.3 Accidentele verdrinking";"17.1.3 Accidentele verdrinking.
+Bijbehorende ICD-codes:
+ICD-10: W65-W74;
+ICD-9: E910;
+ICD-8: E910;
+ICD-6+7: E929
+";;"Long";"aantal";"0";"Impossible"
+"108";"89";"100";"Topic";"k_1714AccidenteleVergiftiging_87";"17.1.4 Accidentele vergiftiging";"17.1.4 Accidentele vergiftiging.
+Bijbehorende ICD-codes:
+ICD-10: X40-X49;
+ICD-9: E850-E869;
+ICD-8: E850-E877;
+ICD-6+7: E870-E895
+";;"Long";"aantal";"0";"Impossible"
+"109";"90";"100";"Topic";"k_1715OverigeOngevallen_88";"17.1.5 Overige ongevallen";"17.1.5 Overige ongevallen.
+Bijbehorende ICD-codes:
+ICD-10: W20-W64, W75-X39, X50-X58;
+ICD-9: E870-E879, E890-E909, E911-E929;
+ICD-8: E890-E909, E911-E929, E942-E946;
+ICD-6+7: E896-E899, E910-E928, E930-E936, E961-E962
+";;"Long";"aantal";"0";"Impossible"
+"110";"91";"98";"Topic";"k_172Zelfdoding_89";"17.2 Zelfdoding";"17.2 Zelfdoding.
+Bijbehorende ICD-codes:
+ICD-10: X60-X84;
+ICD-9: E950-E959;
+ICD-8: E950-E959;
+ICD-6+7: E963, E970-E979
+";;"Long";"aantal";"0";"Impossible"
+"111";"92";"98";"Topic";"k_173MoordEnDoodslag_90";"17.3 Moord en doodslag";"17.3 Moord en doodslag.
+Bijbehorende ICD-codes:
+ICD-10: X85-Y09;
+ICD-9: E960-E969;
+ICD-8: E960-E969;
+ICD-6+7: E964, E980-E983
+";;"Long";"aantal";"0";"Impossible"
+"112";"93";"98";"Topic";"k_174GebeurtenissenOpzetOnbekend_91";"17.4 Gebeurtenissen opzet onbekend";"17.4 Gebeurtenissen opzet onbekend.
+Bijbehorende ICD-codes:
+ICD-10: Y10-Y34;
+ICD-9: E980-E989;
+ICD-8: E980-E989;
+ICD-6+7: --
+";;"Long";"aantal";"0";"Impossible"
+"113";"94";"98";"Topic";"k_175OverigeUitwendigeDoodsoorzaken_92";"17.5 Overige uitwendige doodsoorzaken";"17.5 Overige niet-natuurlijke doodsoorzaken.
+Bijbehorende ICD-codes:
+ICD-10: Y35-Y89;
+ICD-9: E930-E949, E970-E978, E990-E999;
+ICD-8: E930-E949, E970-E978, E990-E999;
+ICD-6+7: E94-E959, E965, E984-E999
+";;"Long";"aantal";"0";"Impossible"
+"114";"95";;"Topic";"GemiddeldeBevolking_93";"Gemiddelde bevolking";"De gemiddelde bevolking van leeftijdklasse L in jaar t is als volgt berekend: 
+((Bevolkings aantal in leeftijdsklasse (L) op 1 januari jaar t)+
+(Bevolkings aantal in leeftijdsklasse (L) op 1 januari jaar t+1))/2.
+Het gemiddeld aantal 0-jarigen in jaar t is als volgt berekend: 
+((aantal levendgeborenen in jaar t)+(0-jarigen op 1 januari jaar t+1))/2. ";;"Double";"aantal";"0";"Impossible"
+"Geslacht"
+Key;Title;Description
+"1100";"Totaal mannen en vrouwen";
+"3000";"Mannen";
+"4000";"Vrouwen";
+"Leeftijd"
+Key;Title;Description
+" 10000";"Totaal alle leeftijden";
+" 10010";"0 jaar";"Leeftijd op het moment van overlijden."
+" 51300";"1 tot 5 jaar";"Leeftijd op het moment van overlijden."
+" 70200";"5 tot 10 jaar";"Leeftijd op het moment van overlijden."
+" 70300";"10 tot 15 jaar";"Leeftijd op het moment van overlijden."
+" 70400";"15 tot 20 jaar";"Leeftijd op het moment van overlijden."
+" 70500";"20 tot 25 jaar";"Leeftijd op het moment van overlijden."
+" 70600";"25 tot 30 jaar";"Leeftijd op het moment van overlijden."
+" 70700";"30 tot 35 jaar";"Leeftijd op het moment van overlijden."
+" 70800";"35 tot 40 jaar";"Leeftijd op het moment van overlijden."
+" 70900";"40 tot 45 jaar";"Leeftijd op het moment van overlijden."
+" 71000";"45 tot 50 jaar";"Leeftijd op het moment van overlijden."
+" 71100";"50 tot 55 jaar";"Leeftijd op het moment van overlijden."
+" 71200";"55 tot 60 jaar";"Leeftijd op het moment van overlijden."
+" 71300";"60 tot 65 jaar";"Leeftijd op het moment van overlijden."
+" 71400";"65 tot 70 jaar";"Leeftijd op het moment van overlijden."
+" 71500";"70 tot 75 jaar";"Leeftijd op het moment van overlijden."
+" 71600";"75 tot 80 jaar";"Leeftijd op het moment van overlijden."
+" 71700";"80 tot 85 jaar";"Leeftijd op het moment van overlijden."
+" 71800";"85 tot 90 jaar";"Leeftijd op het moment van overlijden."
+" 71900";"90 tot 95 jaar";"Leeftijd op het moment van overlijden."
+" 22000";"95 jaar of ouder";"Leeftijd op het moment van overlijden."
+"Perioden"
+Key;Title;Description;Status
+"1950JJ00";"1950";"";"Definitief"
+"1951JJ00";"1951";;"Definitief"
+"1952JJ00";"1952";"";"Definitief"
+"1953JJ00";"1953";"";"Definitief"
+"1954JJ00";"1954";"";"Definitief"
+"1955JJ00";"1955";"";"Definitief"
+"1956JJ00";"1956";;"Definitief"
+"1957JJ00";"1957";"";"Definitief"
+"1958JJ00";"1958";"";"Definitief"
+"1959JJ00";"1959";"";"Definitief"
+"1960JJ00";"1960";"";"Definitief"
+"1961JJ00";"1961";"";"Definitief"
+"1962JJ00";"1962";"";"Definitief"
+"1963JJ00";"1963";"";"Definitief"
+"1964JJ00";"1964";"";"Definitief"
+"1965JJ00";"1965";"";"Definitief"
+"1966JJ00";"1966";"";"Definitief"
+"1967JJ00";"1967";;"Definitief"
+"1968JJ00";"1968";"";"Definitief"
+"1969JJ00";"1969";"";"Definitief"
+"1970JJ00";"1970";"";"Definitief"
+"1971JJ00";"1971";"";"Definitief"
+"1972JJ00";"1972";"";"Definitief"
+"1973JJ00";"1973";"";"Definitief"
+"1974JJ00";"1974";"";"Definitief"
+"1975JJ00";"1975";;"Definitief"
+"1976JJ00";"1976";"";"Definitief"
+"1977JJ00";"1977";"";"Definitief"
+"1978JJ00";"1978";"";"Definitief"
+"1979JJ00";"1979";"";"Definitief"
+"1980JJ00";"1980";"";"Definitief"
+"1981JJ00";"1981";"";"Definitief"
+"1982JJ00";"1982";"";"Definitief"
+"1983JJ00";"1983";"";"Definitief"
+"1984JJ00";"1984";"";"Definitief"
+"1985JJ00";"1985";;"Definitief"
+"1986JJ00";"1986";;"Definitief"
+"1987JJ00";"1987";;"Definitief"
+"1988JJ00";"1988";;"Definitief"
+"1989JJ00";"1989";;"Definitief"
+"1990JJ00";"1990";"Bij het onderhoud van de bestanden zijn er enkele kleine correcties van minder dan tien overledenen aangebracht.";"Definitief"
+"1991JJ00";"1991";;"Definitief"
+"1992JJ00";"1992";;"Definitief"
+"1993JJ00";"1993";;"Definitief"
+"1994JJ00";"1994";;"Definitief"
+"1995JJ00";"1995";"";"Definitief"
+"1996JJ00";"1996";;"Definitief"
+"1997JJ00";"1997";;"Definitief"
+"1998JJ00";"1998";;"Definitief"
+"1999JJ00";"1999";;"Definitief"
+"2000JJ00";"2000";;"Definitief"
+"2001JJ00";"2001";;"Definitief"
+"2002JJ00";"2002";;"Definitief"
+"2003JJ00";"2003";;"Definitief"
+"2004JJ00";"2004";;"Definitief"
+"2005JJ00";"2005";;"Definitief"
+"2006JJ00";"2006";;"Definitief"
+"2007JJ00";"2007";;"Definitief"
+"2008JJ00";"2008";;"Definitief"
+"2009JJ00";"2009";;"Definitief"
+"2010JJ00";"2010";;"Definitief"
+"2011JJ00";"2011";;"Definitief"
+"2012JJ00";"2012";;"Definitief"
+"2013JJ00";"2013";"";"Definitief"
+"2014JJ00";"2014";;"Definitief"
+"2015JJ00";"2015";"";"Definitief"
+"2016JJ00";"2016";"";"Definitief"
+"2017JJ00";"2017";"";"Definitief"
